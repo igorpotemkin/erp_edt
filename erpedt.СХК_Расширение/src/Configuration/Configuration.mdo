@@ -247,6 +247,7 @@
   <commonModules>CommonModule.ПроизводствоСервер</commonModules>
   <commonModules>CommonModule.__СП_ЗаказКлиента</commonModules>
   <commonModules>CommonModule.РасчетСебестоимостиПрикладныеАлгоритмы</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <httpServices>HTTPService.СХК_ОбменЗУП</httpServices>
   <eventSubscriptions>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
