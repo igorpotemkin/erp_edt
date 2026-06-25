@@ -53,6 +53,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="641cd50e-5ec2-4970-a9e2-bdfc436846f0" extendedConfigurationObject="10b88158-c80b-41f7-a495-e589cc0686fc">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="8349a53d-ca26-46eb-bbcd-80dfd8507bf5" extendedConfigurationObject="1587975a-13e8-4f72-9298-96539ab57782">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>

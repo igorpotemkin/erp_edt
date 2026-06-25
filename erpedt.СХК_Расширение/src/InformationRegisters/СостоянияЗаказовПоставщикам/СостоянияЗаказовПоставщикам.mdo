@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b4d0aff4-0408-49cc-8d88-7029f96bba63" extendedConfigurationObject="68dc1454-631b-45f1-aaa5-388c0b6f5913">
+  <producedTypes>
+    <selectionType typeId="52f04dbc-19ef-43e5-ae57-b8c042fdebe3" valueTypeId="148c90e1-79e9-4b72-93ce-e89c460cddc2"/>
+    <listType typeId="ce2fce22-c928-430c-867a-0bab1bbaa628" valueTypeId="8b6df3eb-c252-4899-949a-8186c12ca100"/>
+    <managerType typeId="ebf3ba34-b134-4abc-a848-ab28d815ce86" valueTypeId="c0aab027-5619-43d1-9976-6d186f81c137"/>
+    <recordSetType typeId="d0cfb418-3e48-4a8d-84be-e5f22cbd4ab5" valueTypeId="0b1a57aa-36da-443a-b94b-cc9a1e972ee0"/>
+    <recordKeyType typeId="3720f32e-fb11-4593-950a-8bfba6372e57" valueTypeId="183f4abf-c1e0-4b68-9685-a0946c100adf"/>
+    <recordType typeId="c2cb9d2f-35a3-49ec-9eae-670e5dc471f7" valueTypeId="c989d102-820e-4dc8-b868-6703bf020092"/>
+    <recordManagerType typeId="155237f7-3b08-4bfc-8ae7-288d0e9469f9" valueTypeId="3a75416e-cc29-47d9-84bf-4b803ce6a090"/>
+  </producedTypes>
+  <name>СостоянияЗаказовПоставщикам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <resources uuid="453d7f37-5a2e-418c-a6f7-3239861f71a4" extendedConfigurationObject="9d88bd0a-b752-4b33-a63b-f7ae021c65c9">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияЗаказовПоставщикам</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="1d32df75-cc79-4cd7-85bd-1c567c464be1" extendedConfigurationObject="470c0639-596b-4723-ab1a-f7f71938b7f3">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПоставщику</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

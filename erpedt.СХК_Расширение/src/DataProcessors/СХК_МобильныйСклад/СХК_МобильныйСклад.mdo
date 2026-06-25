@@ -502,6 +502,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="d058e935-5d11-460a-af61-da31a628bb97">
+    <name>СМ_СканРО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканировать РО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="be0471f9-d86e-473d-896d-975573aeb492">
     <name>МакетСклад</name>
     <synonym>

@@ -894,6 +894,7 @@
   <informationRegisters>InformationRegister.НаличиеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.КалендарныеГрафики</informationRegisters>
   <informationRegisters>InformationRegister.МножителиПартийИПолуфабрикатов</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияЗаказовПоставщикам</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияСерийТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗаказыНаПеремещение</accumulationRegisters>

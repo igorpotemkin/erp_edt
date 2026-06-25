@@ -285,6 +285,37 @@
         </typeExtension>
       </extension>
     </attributes>
+    <attributes uuid="b3fe403c-fc5b-47a2-8d97-30de36b3ab26" extendedConfigurationObject="5c753858-cccc-42c3-9869-ab43bc32e5bd">
+      <name>КоличествоУпаковок</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="79fd2819-9409-4fb2-8099-3dd0ebd8616f" extendedConfigurationObject="6b535f05-ac01-4fbe-a57c-0c88609787de">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="1c9bd346-69c6-4383-9041-89f9df0e6128" extendedConfigurationObject="fe8e86bc-a667-4a44-bce5-642d9aeae84c">
     <producedTypes>

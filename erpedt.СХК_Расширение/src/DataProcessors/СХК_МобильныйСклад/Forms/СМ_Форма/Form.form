@@ -42,7 +42,7 @@
       <id>11</id>
       <title>
         <key>ru</key>
-        <value>ПРИЕМКА СМ</value>
+        <value>ПОСТУПЛЕНИЕ СМ</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -71,7 +71,7 @@
         <color>Style.FormBackColor</color>
       </textColor>
       <backColor xsi:type="core:ColorRef">
-        <color>Style.ButtonTextColor</color>
+        <color>Style.AccentColor</color>
       </backColor>
       <font xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
@@ -189,47 +189,13 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>Брак</name>
-      <id>36</id>
-      <enabled>false</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>БракРасширеннаяПодсказка</name>
-        <id>37</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.Брак</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <placementArea>UserCmds</placementArea>
-      <font xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>16.0</height>
-        <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-        <scale>100</scale>
-      </font>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
       <name>ПриемкаЦех</name>
       <id>23</id>
       <title>
         <key>ru</key>
-        <value>Прием ЦЕХ</value>
+        <value>Прием из ЦЕХА</value>
       </title>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
