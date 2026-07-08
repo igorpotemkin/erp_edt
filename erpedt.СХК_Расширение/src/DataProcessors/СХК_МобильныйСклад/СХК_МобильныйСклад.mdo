@@ -511,11 +511,27 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a55967ee-c9f0-47c6-a1da-620c62aa7d59">
+    <name>СМ_ФормаШКНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый штрихкод</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="be0471f9-d86e-473d-896d-975573aeb492">
     <name>МакетСклад</name>
     <synonym>
       <key>ru</key>
       <value>Макет склад</value>
+    </synonym>
+  </templates>
+  <templates uuid="23a51d56-c8ec-4591-a678-871f56308936">
+    <name>МакетШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет ШК</value>
     </synonym>
   </templates>
 </mdclass:DataProcessor>

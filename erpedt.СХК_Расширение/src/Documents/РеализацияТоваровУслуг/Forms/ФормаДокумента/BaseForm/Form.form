@@ -293,7 +293,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:LabelFieldExtInfo">
-                <maxWidth>46</maxWidth>
+                <maxWidth>52</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <hyperlink>true</hyperlink>
               </extInfo>
@@ -879,6 +879,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <editTextUpdate>OnValueChange</editTextUpdate>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -1878,7 +1879,6 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
-            <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1922,6 +1922,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -1957,14 +1958,14 @@
                   </value>
                 </choiceList>
                 <choiceList>
-                  <value xsi:type="core:ReferenceValue">
-                    <value>e415ab57-bc46-4271-9a42-7057de9f17fb.c055fc9f-fc66-40cb-826b-aee1eff759fe</value>
-                  </value>
+                  <value xsi:type="core:ReferenceValue"/>
+                </choiceList>
+                <choiceList>
+                  <value xsi:type="core:ReferenceValue"/>
                 </choiceList>
                 <backColor xsi:type="core:ColorRef">
                   <color>Style.ЦветФонаВыделения</color>
                 </backColor>
-                <dropListWidth>28</dropListWidth>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2034,6 +2035,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <dropListButton>true</dropListButton>
@@ -2111,6 +2113,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -2194,6 +2197,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <dropListButton>false</dropListButton>
@@ -2262,7 +2266,6 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
-            <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -2718,7 +2721,6 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
-            <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -2938,7 +2940,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <maxWidth>28</maxWidth>
+            <maxWidth>33</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <hyperlink>true</hyperlink>
           </extInfo>
@@ -2975,7 +2977,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
-          <maxWidth>35</maxWidth>
+          <maxWidth>40</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <hyperlink>true</hyperlink>
@@ -3021,6 +3023,7 @@
           <key>en</key>
           <value>Payment group</value>
         </title>
+        <width>91</width>
         <extendedTooltip>
           <name>ГруппаОплатаРасширеннаяПодсказка</name>
           <id>1391</id>
@@ -3072,7 +3075,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <maxWidth>70</maxWidth>
+          <maxWidth>81</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <verticalStretch>false</verticalStretch>
           <chooseType>true</chooseType>
@@ -4008,31 +4011,31 @@
             <choiceParameterLinks>
               <name>Отбор.ЦенаВключаетНДС</name>
               <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
+                <segments>Объект.ЦенаВключаетНДС</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameterLinks>
               <name>Партнер</name>
               <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
+                <segments>Объект.Партнер</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameterLinks>
               <name>Соглашение</name>
               <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
+                <segments>Объект.Соглашение</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameterLinks>
               <name>ИспользоватьСоглашенияСКлиентами</name>
               <datapath xsi:type="form:DataPath">
-                <segments>44</segments>
+                <segments>0</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameterLinks>
               <name>ИспользуетсяЦенообразование25</name>
               <datapath xsi:type="form:DataPath">
-                <segments>122</segments>
+                <segments>0</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameters>
@@ -5927,7 +5930,6 @@
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ТоварыВыделитьВсе</name>
@@ -8931,6 +8933,7 @@ details</value>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -9135,7 +9138,7 @@ details</value>
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>1</segments>
+                  <segments>Объект.Партнер</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -9427,7 +9430,7 @@ business</value>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>24</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <listChoiceMode>true</listChoiceMode>
@@ -11710,6 +11713,7 @@ option</value>
   </autoCommandBar>
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>Write</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>

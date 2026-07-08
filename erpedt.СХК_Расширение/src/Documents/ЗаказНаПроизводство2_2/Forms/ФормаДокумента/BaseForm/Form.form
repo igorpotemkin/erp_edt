@@ -4064,7 +4064,7 @@
                 </extInfo>
               </extendedTooltip>
               <parameter xsi:type="core:ReferenceValue">
-                <value>04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</value>
+                <value>Document.ЗаказНаПроизводство2_2</value>
               </parameter>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>

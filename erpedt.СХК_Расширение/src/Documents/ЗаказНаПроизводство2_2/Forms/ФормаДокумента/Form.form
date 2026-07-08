@@ -93,14 +93,14 @@
     </items>
     <items xsi:type="form:Button">
       <name>ПланироватьГрафик</name>
-      <id>654</id>
+      <id>658</id>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
         <name>ПланироватьГрафикРасширеннаяПодсказка</name>
-        <id>657</id>
+        <id>659</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -117,7 +117,7 @@
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаДинамическаяСтруктура</name>
-      <id>640</id>
+      <id>271</id>
       <items xsi:type="form:FormGroup">
         <name>СостояниеРасчета</name>
         <id>577</id>
@@ -133,7 +133,7 @@
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
             <name>ДинамическаяСтруктураРасширеннаяПодсказка</name>
-            <id>648</id>
+            <id>514</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -155,7 +155,7 @@
         </items>
         <items xsi:type="form:FormGroup">
           <name>СтраницаНеРассчитан</name>
-          <id>645</id>
+          <id>517</id>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -170,7 +170,7 @@
           </title>
           <extendedTooltip>
             <name>СтраницаНеРассчитанРасширеннаяПодсказка</name>
-            <id>649</id>
+            <id>518</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -761,12 +761,12 @@
                 <common>true</common>
               </userVisible>
               <title>
-                <key>en</key>
-                <value>Errors occurred when selecting BOMs in production orders</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>Ошибки подбора спецификаций в заказах на производство</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Errors occurred when selecting BOMs in production orders</value>
               </title>
               <extendedTooltip>
                 <name>ГруппаОшибкиПодбораСпецификацийВЗаказахНаПроизводствоРасширеннаяПодсказка</name>
@@ -870,12 +870,12 @@
                 <common>true</common>
               </userVisible>
               <title>
-                <key>en</key>
-                <value>Errors occurred when filling data on finished products</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>Ошибки заполнения данных об изделиях</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Errors occurred when filling data on finished products</value>
               </title>
               <extendedTooltip>
                 <name>ГруппаОшибкиЗаполненияДанныхОбИзделияхРасширеннаяПодсказка</name>
@@ -979,12 +979,12 @@
                 <common>true</common>
               </userVisible>
               <title>
-                <key>en</key>
-                <value>Standard schedule calculation errors</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>Ошибки расчета нормативного графика</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Standard schedule calculation errors</value>
               </title>
               <extendedTooltip>
                 <name>ГруппаОшибкиРасчетаНормативногоГрафикаРасширеннаяПодсказка</name>
@@ -1050,12 +1050,12 @@
                 <common>true</common>
               </userVisible>
               <title>
-                <key>en</key>
-                <value>Errors full calculation</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>Ошибки полный расчет</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Errors full calculation</value>
               </title>
               <groupHorizontalAlign>Right</groupHorizontalAlign>
               <extendedTooltip>
@@ -1263,12 +1263,12 @@
           <common>true</common>
         </userVisible>
         <title>
-          <key>en</key>
-          <value>Calculation state</value>
-        </title>
-        <title>
           <key>ru</key>
           <value>Состояние расчета</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Calculation state</value>
         </title>
         <extendedTooltip>
           <name>СостояниеРасчетаРасширеннаяПодсказка</name>
@@ -1304,7 +1304,7 @@
       </title>
       <extendedTooltip>
         <name>ГруппаДинамическаяСтруктураРасширеннаяПодсказка</name>
-        <id>647</id>
+        <id>272</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1585,7 +1585,7 @@
             </handlers>
             <extendedTooltip>
               <name>СХК_СкладРасширеннаяПодсказка</name>
-              <id>663</id>
+              <id>703</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1595,7 +1595,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>СХК_СкладКонтекстноеМеню</name>
-              <id>662</id>
+              <id>702</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -1615,7 +1615,7 @@
           </items>
           <items xsi:type="form:FormField">
             <name>СХК_Этаж</name>
-            <id>658</id>
+            <id>700</id>
             <title>
               <key>ru</key>
               <value>Этаж</value>
@@ -1630,7 +1630,7 @@
             </dataPath>
             <extendedTooltip>
               <name>СХК_ЭтажРасширеннаяПодсказка</name>
-              <id>660</id>
+              <id>705</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1640,7 +1640,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>СХК_ЭтажКонтекстноеМеню</name>
-              <id>659</id>
+              <id>704</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -1954,12 +1954,12 @@
             <name>НазначениеПродукция</name>
             <id>448</id>
             <title>
-              <key>en</key>
-              <value>Assignment</value>
-            </title>
-            <title>
               <key>ru</key>
               <value>Назначение</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Assignment</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2666,7 +2666,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ПродукцияРасш1_СерияРасширеннаяПодсказка</name>
-            <id>514</id>
+            <id>701</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2968,7 +2968,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ПродукцияДатаПотребности</name>
-          <id>652</id>
+          <id>651</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2979,7 +2979,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ПродукцияДатаПотребностиРасширеннаяПодсказка</name>
-            <id>642</id>
+            <id>655</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3764,7 +3764,7 @@
             </items>
             <items xsi:type="form:Button">
               <name>ПродукцияСоздатьСерии</name>
-              <id>664</id>
+              <id>706</id>
               <title>
                 <key>ru</key>
                 <value>Создать серию</value>
@@ -3776,7 +3776,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>ПродукцияСоздатьСерииРасширеннаяПодсказка</name>
-                <id>665</id>
+                <id>708</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3793,7 +3793,7 @@
             </items>
             <items xsi:type="form:Button">
               <name>ПродукцияЗаданиеЭтикетки</name>
-              <id>518</id>
+              <id>707</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3919,7 +3919,7 @@
             </items>
             <items xsi:type="form:Button">
               <name>ПродукцияЗагрузитьИзВнешнегоФайла</name>
-              <id>695</id>
+              <id>665</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3948,12 +3948,12 @@
                 <name>ПродукцияСпецификацииЗаполнить</name>
                 <id>356</id>
                 <title>
-                  <key>en</key>
-                  <value>Bill of materials</value>
-                </title>
-                <title>
                   <key>ru</key>
                   <value>Спецификацию</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Bill of materials</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4038,7 +4038,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ПродукцияПродукцияЗаполнитьДатуПотребности</name>
-                <id>653</id>
+                <id>648</id>
                 <title>
                   <key>ru</key>
                   <value>Желаемую дату</value>
@@ -4054,7 +4054,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ПродукцияПродукцияЗаполнитьДатуПотребностиРасширеннаяПодсказка</name>
-                  <id>655</id>
+                  <id>649</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -4272,7 +4272,7 @@
             <id>416</id>
             <items xsi:type="form:Button">
               <name>ПродукцияСпецификацииДеревоСпецификации</name>
-              <id>643</id>
+              <id>418</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -4280,7 +4280,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>ПродукцияСпецификацииДеревоСпецификацииРасширеннаяПодсказка</name>
-                <id>650</id>
+                <id>419</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -4289,7 +4289,7 @@
                 </extInfo>
               </extendedTooltip>
               <parameter xsi:type="core:ReferenceValue">
-                <value>04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</value>
+                <value>Document.ЗаказНаПроизводство2_2</value>
               </parameter>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4539,7 +4539,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаПараметрыВыпуска</name>
-        <id>651</id>
+        <id>650</id>
         <items xsi:type="form:FormField">
           <name>НачатьНеРанее</name>
           <id>305</id>
@@ -4582,7 +4582,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ДатаПотребности</name>
-          <id>302</id>
+          <id>653</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4590,7 +4590,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДатаПотребностиРасширеннаяПодсказка</name>
-            <id>304</id>
+            <id>657</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4609,9 +4609,10 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>15</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <extendedEditMultipleValues>true</extendedEditMultipleValues>
             <dropListButton>true</dropListButton>
             <choiceButton>false</choiceButton>
             <typeDomainEnabled>true</typeDomainEnabled>
@@ -4684,7 +4685,7 @@
         </toolTip>
         <extendedTooltip>
           <name>ГруппаПараметрыВыпускаРасширеннаяПодсказка</name>
-          <id>644</id>
+          <id>652</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5002,12 +5003,12 @@ to products</value>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTip>
-          <key>en</key>
-          <value>Mainly assigned supply of materials and works</value>
-        </toolTip>
-        <toolTip>
           <key>ru</key>
           <value>Преимущественно обособленное обеспечение материалов и работ</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Mainly assigned supply of materials and works</value>
         </toolTip>
         <extendedTooltip>
           <name>ОбособленноеОбеспечениеМатериаловИРаботРасширеннаяПодсказка</name>
@@ -5132,7 +5133,7 @@ to products</value>
       <id>668</id>
       <items xsi:type="form:Decoration">
         <name>ДекорацияСостояниеЭДО</name>
-        <id>692</id>
+        <id>660</id>
         <title>
           <key>ru</key>
           <value>Состояние ЭДО</value>
@@ -5156,7 +5157,7 @@ to products</value>
         </toolTip>
         <extendedTooltip>
           <name>ДекорацияСостояниеЭДОРасширеннаяПодсказка</name>
-          <id>700</id>
+          <id>662</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5745,7 +5746,7 @@ to products</value>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаДиспетчированиеЭтапов</name>
-        <id>696</id>
+        <id>663</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5753,7 +5754,7 @@ to products</value>
         </userVisible>
         <extendedTooltip>
           <name>ФормаДиспетчированиеЭтаповРасширеннаяПодсказка</name>
-          <id>698</id>
+          <id>664</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>

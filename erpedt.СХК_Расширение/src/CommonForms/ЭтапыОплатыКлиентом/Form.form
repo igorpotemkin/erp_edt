@@ -522,7 +522,7 @@
           <choiceParameterLinks>
             <name>Отбор.Владелец</name>
             <datapath xsi:type="form:DataPath">
-              <segments>36</segments>
+              <segments>0</segments>
             </datapath>
           </choiceParameterLinks>
         </extInfo>
@@ -579,7 +579,7 @@
           <choiceParameterLinks>
             <name>Отбор.Владелец</name>
             <datapath xsi:type="form:DataPath">
-              <segments>36</segments>
+              <segments>0</segments>
             </datapath>
           </choiceParameterLinks>
         </extInfo>

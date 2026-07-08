@@ -12856,7 +12856,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ПобочныеИзделияВладелецИзделияКонтекстноеМеню</name>
-                <id>2581</id>
+                <id>2682</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -17886,7 +17886,7 @@ to products</value>
       <id>2594</id>
       <items xsi:type="form:Table">
         <name>СписокЭтапов</name>
-        <id>2596</id>
+        <id>2671</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -18092,7 +18092,7 @@ to products</value>
         </extendedTooltip>
         <contextMenu>
           <name>СписокЭтаповКонтекстноеМеню</name>
-          <id>2597</id>
+          <id>2672</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>

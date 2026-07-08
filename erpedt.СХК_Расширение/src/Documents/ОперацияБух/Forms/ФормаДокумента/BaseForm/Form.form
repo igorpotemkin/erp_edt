@@ -424,7 +424,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>dated</value>
+                <value>from</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1127,7 +1127,7 @@ but they affect the opening balance of the next year.</value>
                 <choiceParameterLinks>
                   <name>Отбор.Владелец</name>
                   <datapath xsi:type="form:DataPath">
-                    <segments>1/0:bf6d1bc2-c239-4118-af61-a751a5e8a6e0</segments>
+                    <segments>0</segments>
                   </datapath>
                 </choiceParameterLinks>
               </extInfo>
@@ -1686,7 +1686,7 @@ but they affect the opening balance of the next year.</value>
             </title>
             <title>
               <key>en</key>
-              <value>Cr account</value>
+              <value>Account Cr</value>
             </title>
             <titleFont xsi:type="core:FontRef">
               <font>Style.NormalTextFont</font>
@@ -1753,7 +1753,7 @@ but they affect the opening balance of the next year.</value>
                 <choiceParameterLinks>
                   <name>Отбор.Владелец</name>
                   <datapath xsi:type="form:DataPath">
-                    <segments>1/0:bf6d1bc2-c239-4118-af61-a751a5e8a6e0</segments>
+                    <segments>0</segments>
                   </datapath>
                 </choiceParameterLinks>
               </extInfo>
@@ -3839,7 +3839,7 @@ but they affect the opening balance of the next year.</value>
         </title>
         <title>
           <key>en</key>
-          <value>See also reports submenu</value>
+          <value>Submenu reports see also</value>
         </title>
         <toolTip>
           <key>ru</key>
@@ -3847,7 +3847,7 @@ but they affect the opening balance of the next year.</value>
         </toolTip>
         <toolTip>
           <key>en</key>
-          <value>Submenu reports important</value>
+          <value>Important reports submenu</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюОтчетыСмТакжеРасширеннаяПодсказка</name>
@@ -3895,9 +3895,6 @@ but they affect the opening balance of the next year.</value>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Post</excludedCommands>
-  <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

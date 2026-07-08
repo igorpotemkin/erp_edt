@@ -155,7 +155,7 @@
                 </toolTip>
                 <toolTip>
                   <key>en</key>
-                  <value>To use other kinds of items, enable Settings - Items - Variety of item kinds.</value>
+                  <value>To use other kinds of items, enable Settings - Items - Multiple item kinds.</value>
                 </toolTip>
                 <toolTipRepresentation>Balloon</toolTipRepresentation>
                 <extendedTooltip>
@@ -1404,7 +1404,7 @@
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:InputFieldExtInfo">
-                    <height>2</height>
+                    <height>4</height>
                     <autoMaxHeight>true</autoMaxHeight>
                     <verticalStretch>false</verticalStretch>
                     <wrap>true</wrap>
@@ -1764,11 +1764,11 @@
                 <id>122</id>
                 <title>
                   <key>ru</key>
-                  <value>Производитель</value>
+                  <value>Производитель (бренд)</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Manufacturer</value>
+                  <value>Manufacturer (brand)</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1860,11 +1860,11 @@
                 <id>355</id>
                 <title>
                   <key>ru</key>
-                  <value>Производитель (импортер)</value>
+                  <value>Производитель, импортер (контрагент)</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Manufacturer (importer)</value>
+                  <value>Manufacturer, importer (counterparty)</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3956,7 +3956,7 @@
                 </toolTip>
                 <toolTip>
                   <key>en</key>
-                  <value>To use other kinds of items, enable Settings - Items - Variety of item kinds.</value>
+                  <value>To use other kinds of items, enable Settings - Items - Multiple item kinds.</value>
                 </toolTip>
                 <toolTipRepresentation>Balloon</toolTipRepresentation>
                 <extendedTooltip>
@@ -4302,6 +4302,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
+                  <createButton>false</createButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
@@ -4542,7 +4543,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>&lt;link Товары другого качества>Other quality goods&lt;/></value>
+                    <value>&lt;link Товары другого качества>Nonconforming products&lt;/></value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -4651,7 +4652,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Packages</value>
+                  <value>Packaging units</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4732,7 +4733,7 @@
                       </title>
                       <title>
                         <key>en</key>
-                        <value>Packages</value>
+                        <value>Packaging units</value>
                       </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4858,7 +4859,7 @@
                       </title>
                       <title>
                         <key>en</key>
-                        <value>Packages</value>
+                        <value>Packaging units</value>
                       </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5030,7 +5031,7 @@
                     </title>
                     <title>
                       <key>en</key>
-                      <value>&lt;link Прогнозы расхода упаковок>Package consumption forecasts&lt;/></value>
+                      <value>&lt;link Прогнозы расхода упаковок>Packaging unit consumption forecasts&lt;/></value>
                     </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5070,7 +5071,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>Packages:</value>
+                    <value>Packaging units:</value>
                   </title>
                   <titleTextColor xsi:type="core:ColorRef">
                     <color>Style.FormTextColor</color>
@@ -5105,7 +5106,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Packages:</value>
+                  <value>Packaging units:</value>
                 </title>
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.FormTextColor</color>
@@ -7620,7 +7621,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>General ledger</value>
+                <value>Financial accounting</value>
               </title>
               <extendedTooltip>
                 <name>СворачиваемаяГруппаФинансовыйУчетРасширеннаяПодсказка</name>
@@ -8323,7 +8324,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Kind of alcoholic products</value>
+                  <value>Kind of alcohol containing products</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -8759,7 +8760,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>Information on alcoholic products</value>
+                <value>Information on alcohol containing products</value>
               </title>
               <horizontalStretch>true</horizontalStretch>
               <extendedTooltip>
@@ -9121,20 +9122,17 @@
                 <id>1484</id>
                 <title>
                   <key>ru</key>
-                  <value>ОКВЭД2</value>
+                  <value>ОКВЭД 2</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>OKVED2</value>
+                  <value>OKVED 2</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.УдалитьКодОКВЭД2</segments>
-                </dataPath>
                 <toolTip>
                   <key>ru</key>
                   <value>Общероссийский классификатор видов экономической деятельности</value>
@@ -9169,6 +9167,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
+                  <choiceButton>true</choiceButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
@@ -9364,6 +9363,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
+                  <createButton>false</createButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
@@ -9448,9 +9448,9 @@
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
                   <choiceButton>true</choiceButton>
+                  <clearButton>true</clearButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
