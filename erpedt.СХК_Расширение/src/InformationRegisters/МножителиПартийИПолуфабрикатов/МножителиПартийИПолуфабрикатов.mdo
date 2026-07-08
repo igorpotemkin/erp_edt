@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0101d67d-1416-403d-a20d-9f70be7da1ee" extendedConfigurationObject="1e9f2b6e-7bbd-45dd-b76a-494274983fb5">
+  <producedTypes>
+    <selectionType typeId="caebb3f9-f005-469b-9217-737478e0500a" valueTypeId="78dba7dc-886b-4831-bd3d-677c5a10bf20"/>
+    <listType typeId="2d0d5419-2a75-4914-b63f-fa4388752b2d" valueTypeId="b6cc1278-ff10-49c6-94bf-3d5a0660c074"/>
+    <managerType typeId="0f1218b2-0754-484a-a438-9b7dbb29ba69" valueTypeId="6988265b-23c6-494e-8fab-a30eae3a5afe"/>
+    <recordSetType typeId="c5455f6c-b965-4b4d-a633-3c6711531124" valueTypeId="7361930b-09d3-4bcf-bb7d-fb00a8c6096a"/>
+    <recordKeyType typeId="bdb9f903-c65d-4e6f-a690-af424abbc11b" valueTypeId="b9e1161c-38a3-47a9-9c72-b349c85b6e1d"/>
+    <recordType typeId="9e2c66de-888f-4dd5-a829-0b70e1504248" valueTypeId="b1334216-8969-4d71-84fe-3cc162fbdd87"/>
+    <recordManagerType typeId="c0769227-4669-4a27-9b7c-1859694375de" valueTypeId="19ae619e-1216-43ef-87c3-bb256c94cc7c"/>
+  </producedTypes>
+  <name>МножителиПартийИПолуфабрикатов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+</mdclass:InformationRegister>
