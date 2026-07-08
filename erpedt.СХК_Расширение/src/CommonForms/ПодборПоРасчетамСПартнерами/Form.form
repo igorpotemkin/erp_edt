@@ -4,6 +4,10 @@
     <key>ru</key>
     <value>Подбор по расчетам</value>
   </title>
+  <title>
+    <key>en</key>
+    <value>Select by settlements</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаОрганизация</name>
     <id>102</id>
@@ -175,6 +179,10 @@
       <key>ru</key>
       <value>Организация</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Company</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОрганизацияExtendedTooltip</name>
       <id>184</id>
@@ -202,6 +210,10 @@
       <title>
         <key>ru</key>
         <value>Таблица остатков расчетов</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Payment balance table</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -367,6 +379,10 @@
         <title>
           <key>ru</key>
           <value>Сумма</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Amount</value>
         </title>
         <extendedTooltip>
           <name>ГруппаСуммаExtendedTooltip</name>
@@ -552,6 +568,10 @@
           <key>ru</key>
           <value>К оплате</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>For payment</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаКОплатеExtendedTooltip</name>
           <id>203</id>
@@ -697,6 +717,10 @@
         <title>
           <key>ru</key>
           <value>Долг</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Debt</value>
         </title>
         <extendedTooltip>
           <name>ГруппаДолгExtendedTooltip</name>
@@ -861,6 +885,13 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameterLinks>
+            <name>Отбор.ХозяйственнаяОперация</name>
+            <changeMode>DontChange</changeMode>
+            <datapath xsi:type="form:DataPath">
+              <segments>ХозяйственнаяОперация</segments>
+            </datapath>
+          </choiceParameterLinks>
         </extInfo>
       </items>
       <autoCommandBar>
@@ -1138,6 +1169,10 @@
       <key>ru</key>
       <value>Платежи</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Payments</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПлатежиExtendedTooltip</name>
       <id>188</id>
@@ -1172,6 +1207,10 @@
         <key>ru</key>
         <value>[todo Декорация для отступа]</value>
       </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>[todo Декорация для отступа]</value>
+      </toolTip>
       <extendedTooltip>
         <name>ДекорацияИтогиРасширеннаяПодсказка</name>
         <id>235</id>
@@ -1203,6 +1242,10 @@
         <title>
           <key>ru</key>
           <value>Выбранные платежи</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Selected payments</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1371,6 +1414,10 @@
         <key>ru</key>
         <value>Итого</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Total</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаИтогоРасширеннаяПодсказка</name>
         <id>237</id>
@@ -1400,6 +1447,10 @@
     <title>
       <key>ru</key>
       <value>Подвал</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Cellar</value>
     </title>
     <extendedTooltip>
       <name>ГруппаПодвалExtendedTooltip</name>
@@ -1441,7 +1492,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПеренестиВДокумент</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>

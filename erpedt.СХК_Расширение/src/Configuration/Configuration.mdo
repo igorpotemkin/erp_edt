@@ -221,6 +221,8 @@
   <roles>Role.СХК_ТСД</roles>
   <roles>Role.ЧтениеРеализацийТоваровУслуг</roles>
   <roles>Role.СХК_СправочникиEDI</roles>
+  <commonModules>CommonModule.__СП_ЗаказКлиента</commonModules>
+  <commonModules>CommonModule.СХК_СКУДКлиент</commonModules>
   <commonModules>CommonModule.__СпОбщийМодуль</commonModules>
   <commonModules>CommonModule.ВзаиморасчетыКлиент</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>
@@ -233,20 +235,18 @@
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиСлужебный</commonModules>
   <commonModules>CommonModule.ПродажиКлиент</commonModules>
+  <commonModules>CommonModule.ПроизводствоСервер</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
+  <commonModules>CommonModule.РасчетСебестоимостиПрикладныеАлгоритмы</commonModules>
   <commonModules>CommonModule.Расш_ПрофильПочты</commonModules>
   <commonModules>CommonModule.СкладыСервер</commonModules>
   <commonModules>CommonModule.СозданиеНаОснованииУТВызовСервера</commonModules>
   <commonModules>CommonModule.СозданиеНаОснованииУТКлиент</commonModules>
   <commonModules>CommonModule.СХК_Пользователи</commonModules>
   <commonModules>CommonModule.СХК_СКД</commonModules>
+  <commonModules>CommonModule.СХК_СКУДСервер</commonModules>
   <commonModules>CommonModule.СХК_ТСДСклад</commonModules>
   <commonModules>CommonModule.УчетНДСПереопределяемый</commonModules>
-  <commonModules>CommonModule.СХК_СКУДСервер</commonModules>
-  <commonModules>CommonModule.СХК_СКУДКлиент</commonModules>
-  <commonModules>CommonModule.ПроизводствоСервер</commonModules>
-  <commonModules>CommonModule.__СП_ЗаказКлиента</commonModules>
-  <commonModules>CommonModule.РасчетСебестоимостиПрикладныеАлгоритмы</commonModules>
   <httpServices>HTTPService.СХК_ОбменЗУП</httpServices>
   <eventSubscriptions>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>

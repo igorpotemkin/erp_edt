@@ -82,7 +82,11 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>false</horizontalStretch>
       <groupVerticalAlign>Center</groupVerticalAlign>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Information</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>НадписьДопустимаяСуммаЗадолженности</name>
@@ -218,7 +222,7 @@
               </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>НомерExtendedTooltip</name>
+                <name>НомерРасширеннаяПодсказка</name>
                 <id>180</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -267,7 +271,7 @@
               </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>181</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -312,7 +316,7 @@
             </title>
             <verticalStretch>false</verticalStretch>
             <extendedTooltip>
-              <name>ДатаНомерExtendedTooltip</name>
+              <name>ДатаНомерРасширеннаяПодсказка</name>
               <id>179</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -342,7 +346,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СценарийExtendedTooltip</name>
+              <name>СценарийРасширеннаяПодсказка</name>
               <id>182</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -383,7 +387,7 @@
             </userVisible>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>НадписьПериодичностьВалютаExtendedTooltip</name>
+              <name>НадписьПериодичностьВалютаРасширеннаяПодсказка</name>
               <id>183</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -422,7 +426,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ПодразделениеExtendedTooltip</name>
+              <name>ПодразделениеРасширеннаяПодсказка</name>
               <id>184</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -463,7 +467,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ПартнерExtendedTooltip</name>
+              <name>ПартнерРасширеннаяПодсказка</name>
               <id>185</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -504,7 +508,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СоглашениеExtendedTooltip</name>
+              <name>СоглашениеРасширеннаяПодсказка</name>
               <id>186</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -623,7 +627,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ОтветственныйExtendedTooltip</name>
+              <name>ОтветственныйРасширеннаяПодсказка</name>
               <id>265</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -706,7 +710,7 @@
             <value>Header left</value>
           </title>
           <extendedTooltip>
-            <name>ШапкаЛевоExtendedTooltip</name>
+            <name>ШапкаЛевоРасширеннаяПодсказка</name>
             <id>178</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -750,7 +754,7 @@
               </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>НачалоПериодаExtendedTooltip</name>
+                <name>НачалоПериодаРасширеннаяПодсказка</name>
                 <id>192</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -788,7 +792,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>by</value>
+                <value>to</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -800,7 +804,7 @@
               </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>ОкончаниеПериодаExtendedTooltip</name>
+                <name>ОкончаниеПериодаРасширеннаяПодсказка</name>
                 <id>193</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -838,7 +842,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>УстановитьИнтервалExtendedTooltip</name>
+                <name>УстановитьИнтервалРасширеннаяПодсказка</name>
                 <id>194</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -869,7 +873,7 @@
             </title>
             <verticalStretch>false</verticalStretch>
             <extendedTooltip>
-              <name>НачалоОкончаниеПериодаExtendedTooltip</name>
+              <name>НачалоОкончаниеПериодаРасширеннаяПодсказка</name>
               <id>191</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -899,7 +903,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ВидПланаExtendedTooltip</name>
+              <name>ВидПланаРасширеннаяПодсказка</name>
               <id>190</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -984,7 +988,7 @@
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СкладExtendedTooltip</name>
+              <name>СкладРасширеннаяПодсказка</name>
               <id>187</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1294,7 +1298,7 @@
             <value>Header right</value>
           </title>
           <extendedTooltip>
-            <name>ШапкаПравоExtendedTooltip</name>
+            <name>ШапкаПравоРасширеннаяПодсказка</name>
             <id>188</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1325,7 +1329,7 @@
           <value>Header</value>
         </title>
         <extendedTooltip>
-          <name>ШапкаExtendedTooltip</name>
+          <name>ШапкаРасширеннаяПодсказка</name>
           <id>177</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1358,7 +1362,7 @@
           </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
-            <name>КомментарийExtendedTooltip</name>
+            <name>КомментарийРасширеннаяПодсказка</name>
             <id>264</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1401,7 +1405,7 @@
           <value>Comment</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаКомментарийExtendedTooltip</name>
+          <name>ГруппаКомментарийРасширеннаяПодсказка</name>
           <id>263</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1489,7 +1493,7 @@
                 <segments>Объект.Товары.LineNumber</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыНомерСтрокиExtendedTooltip</name>
+                <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
                 <id>214</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1533,7 +1537,7 @@
                 <segments>Объект.Товары.ТипНоменклатуры</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыНоменклатураТипНоменклатурыExtendedTooltip</name>
+                <name>ТоварыНоменклатураТипНоменклатурыРасширеннаяПодсказка</name>
                 <id>215</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1568,7 +1572,7 @@
                 <segments>Объект.Товары.Номенклатура.Code</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыНоменклатураКодExtendedTooltip</name>
+                <name>ТоварыНоменклатураКодРасширеннаяПодсказка</name>
                 <id>216</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1603,7 +1607,7 @@
                 <segments>Объект.Товары.Артикул</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыНоменклатураАртикулExtendedTooltip</name>
+                <name>ТоварыНоменклатураАртикулРасширеннаяПодсказка</name>
                 <id>217</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1640,7 +1644,7 @@
                 <segments>Объект.Товары.Номенклатура</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыНоменклатураExtendedTooltip</name>
+                <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
                 <id>218</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1681,7 +1685,7 @@
                 <segments>Объект.Товары.Характеристика</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыХарактеристикаExtendedTooltip</name>
+                <name>ТоварыХарактеристикаРасширеннаяПодсказка</name>
                 <id>219</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1799,7 +1803,7 @@
                   <segments>Объект.Товары.Упаковка</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыУпаковкаExtendedTooltip</name>
+                  <name>ТоварыУпаковкаРасширеннаяПодсказка</name>
                   <id>221</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1850,7 +1854,7 @@
                   <segments>Объект.Товары.Номенклатура.ЕдиницаИзмерения</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыНоменклатураЕдиницаИзмеренияExtendedTooltip</name>
+                  <name>ТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка</name>
                   <id>222</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1890,7 +1894,7 @@
               </title>
               <width>3</width>
               <extendedTooltip>
-                <name>ТоварыУпаковкаЕдиницаИзмеренияExtendedTooltip</name>
+                <name>ТоварыУпаковкаЕдиницаИзмеренияРасширеннаяПодсказка</name>
                 <id>220</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1925,7 +1929,7 @@
                 <segments>Объект.Товары.КоличествоУпаковок</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыКоличествоУпаковокExtendedTooltip</name>
+                <name>ТоварыКоличествоУпаковокРасширеннаяПодсказка</name>
                 <id>223</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2002,7 +2006,7 @@
                 <segments>Объект.Товары.Склад</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыСкладExtendedTooltip</name>
+                <name>ТоварыСкладРасширеннаяПодсказка</name>
                 <id>224</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2047,7 +2051,7 @@
                 <segments>Объект.Товары.Партнер</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыПартнерExtendedTooltip</name>
+                <name>ТоварыПартнерРасширеннаяПодсказка</name>
                 <id>225</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2088,7 +2092,7 @@
                 <segments>Объект.Товары.Соглашение</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыСоглашениеExtendedTooltip</name>
+                <name>ТоварыСоглашениеРасширеннаяПодсказка</name>
                 <id>226</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2132,7 +2136,7 @@
                 <segments>Объект.Товары.Цена</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыЦенаExtendedTooltip</name>
+                <name>ТоварыЦенаРасширеннаяПодсказка</name>
                 <id>227</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2177,7 +2181,7 @@
                 <segments>Объект.Товары.Сумма</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыСуммаExtendedTooltip</name>
+                <name>ТоварыСуммаРасширеннаяПодсказка</name>
                 <id>228</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2219,7 +2223,7 @@
                 <segments>Объект.Товары.ДатаОтгрузки</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыДатаОтгрузкиExtendedTooltip</name>
+                <name>ТоварыДатаОтгрузкиРасширеннаяПодсказка</name>
                 <id>229</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2265,7 +2269,7 @@
                 <segments>Объект.Товары.Отменено</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТоварыОтмененоExtendedTooltip</name>
+                <name>ТоварыОтмененоРасширеннаяПодсказка</name>
                 <id>230</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2380,7 +2384,7 @@
                   <segments>Объект.Товары.Комментарий</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыКомментарийExtendedTooltip</name>
+                  <name>ТоварыКомментарийРасширеннаяПодсказка</name>
                   <id>231</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2451,7 +2455,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыСкопироватьСтрокиExtendedTooltip</name>
+                  <name>ТоварыСкопироватьСтрокиРасширеннаяПодсказка</name>
                   <id>205</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2475,7 +2479,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыВставитьСтрокиExtendedTooltip</name>
+                  <name>ТоварыВставитьСтрокиРасширеннаяПодсказка</name>
                   <id>206</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2499,7 +2503,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыРазбитьСтрокуExtendedTooltip</name>
+                  <name>ТоварыРазбитьСтрокуРасширеннаяПодсказка</name>
                   <id>207</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2547,7 +2551,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыПодобратьТоварыExtendedTooltip</name>
+                  <name>ТоварыПодобратьТоварыРасширеннаяПодсказка</name>
                   <id>208</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2777,7 +2781,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ТоварыЗаполнитьПоПравилуЗаполненияExtendedTooltip</name>
+                    <name>ТоварыЗаполнитьПоПравилуЗаполненияРасширеннаяПодсказка</name>
                     <id>210</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2804,7 +2808,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ТоварыНастроитьИЗаполнитьПоПравилуЗаполненияExtendedTooltip</name>
+                      <name>ТоварыНастроитьИЗаполнитьПоПравилуЗаполненияРасширеннаяПодсказка</name>
                       <id>212</id>
                       <type>Label</type>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -2833,7 +2837,7 @@
                     <value>Goods group 1</value>
                   </title>
                   <extendedTooltip>
-                    <name>ТоварыГруппа1ExtendedTooltip</name>
+                    <name>ТоварыГруппа1РасширеннаяПодсказка</name>
                     <id>211</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2882,7 +2886,7 @@
                   <value>Fill in goods</value>
                 </title>
                 <extendedTooltip>
-                  <name>ТоварыЗаполнитьExtendedTooltip</name>
+                  <name>ТоварыЗаполнитьРасширеннаяПодсказка</name>
                   <id>209</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2922,6 +2926,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <items xsi:type="form:Button">
                   <name>ТоварыЗагрузитьИзExcel</name>
@@ -2946,6 +2951,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3075,7 +3081,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ТоварыExtendedTooltip</name>
+              <name>ТоварыРасширеннаяПодсказка</name>
               <id>213</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3096,7 +3102,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыКонтекстноеМенюСкопироватьСтрокиExtendedTooltip</name>
+                  <name>ТоварыКонтекстноеМенюСкопироватьСтрокиРасширеннаяПодсказка</name>
                   <id>202</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3120,7 +3126,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыКонтекстноеМенюВставитьСтрокиExtendedTooltip</name>
+                  <name>ТоварыКонтекстноеМенюВставитьСтрокиРасширеннаяПодсказка</name>
                   <id>203</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3144,7 +3150,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыКонтекстноеМенюРазбитьСтрокуExtendedTooltip</name>
+                  <name>ТоварыКонтекстноеМенюРазбитьСтрокуРасширеннаяПодсказка</name>
                   <id>204</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3392,7 +3398,7 @@
             <value>Goods table</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаТоварыТаблицаExtendedTooltip</name>
+            <name>ГруппаТоварыТаблицаРасширеннаяПодсказка</name>
             <id>201</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3426,6 +3432,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТоварыПоПериодам</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormGroup">
               <name>ГруппаФиксацияСлева</name>
@@ -3444,8 +3453,11 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.НомерСтроки</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамНомерСтрокиExtendedTooltip</name>
+                  <name>ТоварыПоПериодамНомерСтрокиРасширеннаяПодсказка</name>
                   <id>242</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3484,8 +3496,11 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.ТипНоменклатуры</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамНоменклатураТипНоменклатурыExtendedTooltip</name>
+                  <name>ТоварыПоПериодамНоменклатураТипНоменклатурыРасширеннаяПодсказка</name>
                   <id>243</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3516,8 +3531,11 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.Номенклатура.Code</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамНоменклатураКодExtendedTooltip</name>
+                  <name>ТоварыПоПериодамНоменклатураКодРасширеннаяПодсказка</name>
                   <id>244</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3548,8 +3566,11 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.Артикул</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамАртикулExtendedTooltip</name>
+                  <name>ТоварыПоПериодамАртикулРасширеннаяПодсказка</name>
                   <id>245</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3582,8 +3603,11 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.Номенклатура</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамНоменклатураExtendedTooltip</name>
+                  <name>ТоварыПоПериодамНоменклатураРасширеннаяПодсказка</name>
                   <id>246</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3650,8 +3674,11 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.Характеристика</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамХарактеристикаExtendedTooltip</name>
+                  <name>ТоварыПоПериодамХарактеристикаРасширеннаяПодсказка</name>
                   <id>247</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3680,6 +3707,12 @@
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
                   <choiceForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаВыбора</choiceForm>
+                  <choiceParameterLinks>
+                    <name>Номенклатура</name>
+                    <datapath xsi:type="form:DataPath">
+                      <segments>Items.ТоварыПоПериодам.CurrentData.Номенклатура</segments>
+                    </datapath>
+                  </choiceParameterLinks>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -3690,6 +3723,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ТоварыПоПериодам.Назначение</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>ТоварыПоПериодамНазначениеРасширеннаяПодсказка</name>
                   <id>547</id>
@@ -3717,6 +3753,40 @@
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
+                  <choiceParameterLinks>
+                    <name>Подразделение</name>
+                    <changeMode>DontChange</changeMode>
+                    <datapath xsi:type="form:DataPath">
+                      <segments>Объект.Подразделение</segments>
+                    </datapath>
+                  </choiceParameterLinks>
+                  <choiceParameterLinks>
+                    <name>Источник</name>
+                    <datapath xsi:type="form:DataPath">
+                      <segments>Объект.Ref</segments>
+                    </datapath>
+                  </choiceParameterLinks>
+                  <choiceParameterLinks>
+                    <name>Номенклатура</name>
+                    <changeMode>DontChange</changeMode>
+                    <datapath xsi:type="form:DataPath">
+                      <segments>Items.ТоварыПоПериодам.CurrentData.Номенклатура</segments>
+                    </datapath>
+                  </choiceParameterLinks>
+                  <choiceParameterLinks>
+                    <name>Склад</name>
+                    <changeMode>DontChange</changeMode>
+                    <datapath xsi:type="form:DataPath">
+                      <segments>Items.ТоварыПоПериодам.CurrentData.Склад</segments>
+                    </datapath>
+                  </choiceParameterLinks>
+                  <choiceParameterLinks>
+                    <name>Характеристика</name>
+                    <changeMode>DontChange</changeMode>
+                    <datapath xsi:type="form:DataPath">
+                      <segments>Items.ТоварыПоПериодам.CurrentData.Характеристика</segments>
+                    </datapath>
+                  </choiceParameterLinks>
                   <choiceParameters>
                     <name>РежимВыбораНазначений</name>
                     <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -3738,8 +3808,11 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ТоварыПоПериодам.Упаковка</segments>
+                  </dataPath>
                   <extendedTooltip>
-                    <name>ТоварыПоПериодамУпаковкаExtendedTooltip</name>
+                    <name>ТоварыПоПериодамУпаковкаРасширеннаяПодсказка</name>
                     <id>249</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3765,6 +3838,12 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
+                    <choiceParameterLinks>
+                      <name>Номенклатура</name>
+                      <datapath xsi:type="form:DataPath">
+                        <segments>Items.ТоварыПоПериодам.CurrentData.Номенклатура</segments>
+                      </datapath>
+                    </choiceParameterLinks>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -3783,8 +3862,11 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ТоварыПоПериодам.Номенклатура.ЕдиницаИзмерения</segments>
+                  </dataPath>
                   <extendedTooltip>
-                    <name>ТоварыПоПериодамНоменклатураЕдиницаИзмеренияExtendedTooltip</name>
+                    <name>ТоварыПоПериодамНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка</name>
                     <id>250</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3828,7 +3910,7 @@
                 </title>
                 <width>3</width>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамУпаковкаЕдиницаИзмеренияExtendedTooltip</name>
+                  <name>ТоварыПоПериодамУпаковкаЕдиницаИзмеренияРасширеннаяПодсказка</name>
                   <id>248</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3880,8 +3962,11 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТоварыПоПериодам.Склад</segments>
+              </dataPath>
               <extendedTooltip>
-                <name>ТоварыПоПериодамСкладExtendedTooltip</name>
+                <name>ТоварыПоПериодамСкладРасширеннаяПодсказка</name>
                 <id>252</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3922,8 +4007,11 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТоварыПоПериодам.Партнер</segments>
+              </dataPath>
               <extendedTooltip>
-                <name>ТоварыПоПериодамПартнерExtendedTooltip</name>
+                <name>ТоварыПоПериодамПартнерРасширеннаяПодсказка</name>
                 <id>253</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3970,8 +4058,11 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТоварыПоПериодам.Соглашение</segments>
+              </dataPath>
               <extendedTooltip>
-                <name>ТоварыПоПериодамСоглашениеExtendedTooltip</name>
+                <name>ТоварыПоПериодамСоглашениеРасширеннаяПодсказка</name>
                 <id>254</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4003,6 +4094,12 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Партнер</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>Items.ТоварыПоПериодам.CurrentData.Партнер</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -4021,8 +4118,11 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТоварыПоПериодам.КоличествоУпаковок</segments>
+              </dataPath>
               <extendedTooltip>
-                <name>ТоварыПоПериодамКоличествоУпаковокExtendedTooltip</name>
+                <name>ТоварыПоПериодамКоличествоУпаковокРасширеннаяПодсказка</name>
                 <id>251</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4062,8 +4162,11 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТоварыПоПериодам.Цена</segments>
+              </dataPath>
               <extendedTooltip>
-                <name>ТоварыПоПериодамЦенаExtendedTooltip</name>
+                <name>ТоварыПоПериодамЦенаРасширеннаяПодсказка</name>
                 <id>255</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4101,8 +4204,11 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТоварыПоПериодам.Сумма</segments>
+              </dataPath>
               <extendedTooltip>
-                <name>ТоварыПоПериодамСуммаExtendedTooltip</name>
+                <name>ТоварыПоПериодамСуммаРасширеннаяПодсказка</name>
                 <id>256</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4145,7 +4251,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамСкопироватьСтрокиExtendedTooltip</name>
+                  <name>ТоварыПоПериодамСкопироватьСтрокиРасширеннаяПодсказка</name>
                   <id>235</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4169,7 +4275,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамВставитьСтрокиExtendedTooltip</name>
+                  <name>ТоварыПоПериодамВставитьСтрокиРасширеннаяПодсказка</name>
                   <id>236</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4455,7 +4561,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ТоварыПоПериодамЗаполнитьПоПравилуЗаполненияExtendedTooltip</name>
+                    <name>ТоварыПоПериодамЗаполнитьПоПравилуЗаполненияРасширеннаяПодсказка</name>
                     <id>238</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4482,7 +4588,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ТоварыПоПериодамНастроитьИЗаполнитьПоПравилуЗаполненияExtendedTooltip</name>
+                      <name>ТоварыПоПериодамНастроитьИЗаполнитьПоПравилуЗаполненияРасширеннаяПодсказка</name>
                       <id>240</id>
                       <type>Label</type>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -4511,7 +4617,7 @@
                     <value>Goods by periods group 1</value>
                   </title>
                   <extendedTooltip>
-                    <name>ТоварыПоПериодамГруппа1ExtendedTooltip</name>
+                    <name>ТоварыПоПериодамГруппа1РасширеннаяПодсказка</name>
                     <id>239</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4584,7 +4690,7 @@
                   <value>Fill in goods</value>
                 </title>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамЗаполнитьExtendedTooltip</name>
+                  <name>ТоварыПоПериодамЗаполнитьРасширеннаяПодсказка</name>
                   <id>237</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4624,6 +4730,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <items xsi:type="form:Button">
                   <name>ТоварыПоПериодамЗагрузитьИзExcel</name>
@@ -4648,6 +4755,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4802,7 +4910,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ТоварыПоПериодамExtendedTooltip</name>
+              <name>ТоварыПоПериодамРасширеннаяПодсказка</name>
               <id>241</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4823,7 +4931,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамКонтекстноеМенюСкопироватьСтрокиExtendedTooltip</name>
+                  <name>ТоварыПоПериодамКонтекстноеМенюСкопироватьСтрокиРасширеннаяПодсказка</name>
                   <id>233</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4847,7 +4955,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыПоПериодамКонтекстноеМенюВставитьСтрокиExtendedTooltip</name>
+                  <name>ТоварыПоПериодамКонтекстноеМенюВставитьСтрокиРасширеннаяПодсказка</name>
                   <id>234</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -5191,7 +5299,7 @@
             <value>Goods cross table</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаТоварыКроссТаблицаExtendedTooltip</name>
+            <name>ГруппаТоварыКроссТаблицаРасширеннаяПодсказка</name>
             <id>232</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5220,7 +5328,7 @@
           <value>Presentation goods</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаТоварыПредставленияExtendedTooltip</name>
+          <name>ГруппаТоварыПредставленияРасширеннаяПодсказка</name>
           <id>200</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -5248,7 +5356,7 @@
         <value>Goods</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаТоварыExtendedTooltip</name>
+        <name>ГруппаТоварыРасширеннаяПодсказка</name>
         <id>199</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -5261,6 +5369,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>ТоварыКоличествоСтрок</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -5286,7 +5397,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НадписьОплатаExtendedTooltip</name>
+            <name>НадписьОплатаРасширеннаяПодсказка</name>
             <id>370</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5317,7 +5428,7 @@
           </userVisible>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>КомандаПереходаКОплатеExtendedTooltip</name>
+            <name>КомандаПереходаКОплатеРасширеннаяПодсказка</name>
             <id>373</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5385,7 +5496,7 @@
           <segments>Объект.ГрафикОплаты</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ГрафикОплатыExtendedTooltip</name>
+          <name>ГрафикОплатыРасширеннаяПодсказка</name>
           <id>376</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -6158,7 +6269,7 @@
       <value>Pages</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСтраницыExtendedTooltip</name>
+      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
       <id>198</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -6194,7 +6305,7 @@
       </userVisible>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ИтогоПоСтрокеКолонкеExtendedTooltip</name>
+        <name>ИтогоПоСтрокеКолонкеРасширеннаяПодсказка</name>
         <id>258</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -6233,7 +6344,7 @@
           <segments>Объект.СуммаДокумента</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СуммаДокументаExtendedTooltip</name>
+          <name>СуммаДокументаРасширеннаяПодсказка</name>
           <id>261</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -6285,7 +6396,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>Валюта1ExtendedTooltip</name>
+          <name>Валюта1РасширеннаяПодсказка</name>
           <id>262</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -6325,7 +6436,7 @@
         <value>Document amount</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСуммаДокументаExtendedTooltip</name>
+        <name>ГруппаСуммаДокументаРасширеннаяПодсказка</name>
         <id>259</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -6359,7 +6470,7 @@
       <value>Totals</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаИтогиExtendedTooltip</name>
+      <name>ГруппаИтогиРасширеннаяПодсказка</name>
       <id>257</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -6622,7 +6733,7 @@
         <value>Additional filling commands</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка</name>
+        <name>ПодменюЗаполнитьРасширеннаяПодсказка</name>
         <id>489</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

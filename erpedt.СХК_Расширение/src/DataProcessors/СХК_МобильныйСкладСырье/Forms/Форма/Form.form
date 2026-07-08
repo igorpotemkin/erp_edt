@@ -1357,6 +1357,7 @@
         </extInfo>
       </extendedTooltip>
       <type>CommandBarHyperlink</type>
+      <commandName>0:3772996b-41f4-4c47-a5a8-ea397db424ae</commandName>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>

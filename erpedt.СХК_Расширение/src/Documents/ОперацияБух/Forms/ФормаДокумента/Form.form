@@ -36,7 +36,11 @@
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.НовостиВнимание</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>Состояние</name>
@@ -424,7 +428,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>dated</value>
+                <value>from</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1124,6 +1128,12 @@ but they affect the opening balance of the next year.</value>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>Объект.Организация</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -1680,7 +1690,7 @@ but they affect the opening balance of the next year.</value>
             </title>
             <title>
               <key>en</key>
-              <value>Cr account</value>
+              <value>Account Cr</value>
             </title>
             <titleFont xsi:type="core:FontRef">
               <font>Style.NormalTextFont</font>
@@ -1744,6 +1754,12 @@ but they affect the opening balance of the next year.</value>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Отбор.Владелец</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>Объект.Организация</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -3133,7 +3149,11 @@ but they affect the opening balance of the next year.</value>
             </contextMenu>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.Внимание16</picture>
+              </picture>
+            </extInfo>
           </items>
           <items xsi:type="form:Decoration">
             <name>Декорация3</name>
@@ -3902,7 +3922,7 @@ but they affect the opening balance of the next year.</value>
         </title>
         <title>
           <key>en</key>
-          <value>See also reports submenu</value>
+          <value>Submenu reports see also</value>
         </title>
         <toolTip>
           <key>ru</key>
@@ -3910,7 +3930,7 @@ but they affect the opening balance of the next year.</value>
         </toolTip>
         <toolTip>
           <key>en</key>
-          <value>Submenu reports important</value>
+          <value>Important reports submenu</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюОтчетыСмТакжеРасширеннаяПодсказка</name>

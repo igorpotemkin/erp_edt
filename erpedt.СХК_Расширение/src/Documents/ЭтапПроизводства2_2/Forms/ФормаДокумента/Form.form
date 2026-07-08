@@ -12856,7 +12856,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ПобочныеИзделияВладелецИзделияКонтекстноеМеню</name>
-                <id>2581</id>
+                <id>2595</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15531,6 +15531,12 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Отбор.Владелец</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>0</segments>
+              </datapath>
+            </choiceParameterLinks>
             <dropListWidth>3</dropListWidth>
           </extInfo>
         </items>
@@ -15597,7 +15603,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЕдиницаИзмеренияКонтекстноеМеню</name>
-                <id>660</id>
+                <id>2615</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15695,7 +15701,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЗагрузкаКонтекстноеМеню</name>
-                <id>2658</id>
+                <id>2607</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15828,7 +15834,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровВремяРаботыНормативКонтекстноеМеню</name>
-                <id>2661</id>
+                <id>2601</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15864,7 +15870,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЕдиницаИзмерения2КонтекстноеМеню</name>
-                <id>2663</id>
+                <id>660</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15954,7 +15960,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЗагрузкаНормативКонтекстноеМеню</name>
-                <id>2665</id>
+                <id>2604</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -16091,7 +16097,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>ВидыРабочихЦентровМаксимальнаяЗагрузкаКонтекстноеМеню</name>
-              <id>2667</id>
+              <id>2610</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>LabelField</type>
@@ -17880,7 +17886,7 @@ to products</value>
       <id>2594</id>
       <items xsi:type="form:Table">
         <name>СписокЭтапов</name>
-        <id>2596</id>
+        <id>2671</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -18086,7 +18092,7 @@ to products</value>
         </extendedTooltip>
         <contextMenu>
           <name>СписокЭтаповКонтекстноеМеню</name>
-          <id>2597</id>
+          <id>2672</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>

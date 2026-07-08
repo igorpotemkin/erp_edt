@@ -133,12 +133,12 @@
               <name>Партнер</name>
               <id>296</id>
               <title>
-                <key>en</key>
-                <value>Lessor</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>Арендодатель</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Lessor</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1401,7 +1401,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>НачисленияРасчетныйДокумент</name>
-          <id>365</id>
+          <id>212</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1409,7 +1409,7 @@
           </userVisible>
           <extendedTooltip>
             <name>НачисленияРасчетныйДокументРасширеннаяПодсказка</name>
-            <id>369</id>
+            <id>214</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1419,7 +1419,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>НачисленияРасчетныйДокументКонтекстноеМеню</name>
-            <id>368</id>
+            <id>213</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -1687,7 +1687,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>НачисленияПредставлениеОтраженияВРеглУчете</name>
-          <id>362</id>
+          <id>334</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1695,7 +1695,7 @@
           </userVisible>
           <extendedTooltip>
             <name>НачисленияПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка</name>
-            <id>371</id>
+            <id>336</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1705,7 +1705,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>НачисленияПредставлениеОтраженияВРеглУчетеКонтекстноеМеню</name>
-            <id>370</id>
+            <id>335</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1748,6 +1748,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
+            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3175,7 +3176,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиИЗакрыть</commandName>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3200,7 +3200,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗаписатьДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3225,7 +3224,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3646,7 +3644,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПроверитьКонтрагентов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3672,7 +3669,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.CustomizeForm</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3697,7 +3693,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

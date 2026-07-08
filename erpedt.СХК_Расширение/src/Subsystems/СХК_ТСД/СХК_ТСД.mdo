@@ -25,5 +25,4 @@
   <content>Catalog.СХК_ШтрихкодСотрудника</content>
   <content>InformationRegister.СХК_ТаймингТСД</content>
   <content>DataProcessor.ПечатьЭтикетокПечать_v4</content>
-  <content>InformationRegister.СХК_ШтрихКодЭтикетки</content>
 </mdclass:Subsystem>

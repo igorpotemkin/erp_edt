@@ -152,7 +152,11 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.Предупреждение</picture>
+                  </picture>
+                </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьОтклонениеЦенЗаказ</name>
@@ -233,7 +237,11 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.ПревышениеЗаказа</picture>
+                  </picture>
+                </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьРасхождениеЗаказ</name>
@@ -479,7 +487,11 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.Предупреждение</picture>
+                  </picture>
+                </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьОтклонениеЦенЗаказы</name>
@@ -567,7 +579,11 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.ПревышениеЗаказа</picture>
+                  </picture>
+                </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьРасхождениеЗаказы</name>
@@ -992,7 +1008,11 @@
                   </contextMenu>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo">
+                    <picture xsi:type="core:PictureRef">
+                      <picture>CommonPicture.ВниманиеКрасный</picture>
+                    </picture>
+                  </extInfo>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1234,7 +1254,11 @@
                   </contextMenu>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo">
+                    <picture xsi:type="core:PictureRef">
+                      <picture>CommonPicture.ВниманиеКрасный</picture>
+                    </picture>
+                  </extInfo>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1592,6 +1616,43 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceParameterLinks>
+                <name>Отбор.ВалютаВзаиморасчетов</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.ВалютаВзаиморасчетов</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Отбор.Контрагент</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Контрагент</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Отбор.Организация</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Организация</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Отбор.Партнер</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Партнер</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Соглашение</name>
+                <changeMode>DontChange</changeMode>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Соглашение</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Отбор.ХозяйственнаяОперация</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>ХозяйственнаяОперацияДоговора</segments>
+                </datapath>
+              </choiceParameterLinks>
               <choiceParameters>
                 <name>Отбор.Статус</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -1894,7 +1955,7 @@
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияЭтапыОплаты</name>
-          <id>1899</id>
+          <id>1853</id>
           <title>
             <key>ru</key>
             <value>Декорация этапы оплаты</value>
@@ -1910,7 +1971,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДекорацияЭтапыОплатыРасширеннаяПодсказка</name>
-            <id>1917</id>
+            <id>1855</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1920,7 +1981,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияЭтапыОплатыКонтекстноеМеню</name>
-            <id>1916</id>
+            <id>1854</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -2216,7 +2277,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыНоменклатураПартнераКодКонтекстноеМеню</name>
-            <id>1918</id>
+            <id>857</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -2256,7 +2317,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыНоменклатураПартнераАртикулКонтекстноеМеню</name>
-            <id>1920</id>
+            <id>859</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -2298,7 +2359,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыНоменклатураПартнераКонтекстноеМеню</name>
-            <id>1922</id>
+            <id>257</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -3882,6 +3943,33 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Номенклатура</name>
+              <changeMode>DontChange</changeMode>
+              <datapath xsi:type="form:DataPath">
+                <segments>Items.Товары.CurrentData.Номенклатура</segments>
+              </datapath>
+            </choiceParameterLinks>
+            <choiceParameterLinks>
+              <name>Отбор.СтранаПроисхождения</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>Items.Товары.CurrentData.СтранаПроисхождения</segments>
+              </datapath>
+            </choiceParameterLinks>
+            <choiceParameterLinks>
+              <name>Характеристика</name>
+              <changeMode>DontChange</changeMode>
+              <datapath xsi:type="form:DataPath">
+                <segments>Items.Товары.CurrentData.Характеристика</segments>
+              </datapath>
+            </choiceParameterLinks>
+            <choiceParameterLinks>
+              <name>Дата</name>
+              <changeMode>DontChange</changeMode>
+              <datapath xsi:type="form:DataPath">
+                <segments>Объект.Date</segments>
+              </datapath>
+            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -5375,7 +5463,11 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.Information</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>НадписьНесколькоСкладов</name>
@@ -5474,6 +5566,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Товары.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -5524,6 +5619,9 @@
           <maxWidth>9</maxWidth>
           <maxHeight>9</maxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ЛоготипОсновнойСервисДоставки</picture>
+            </picture>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
         </items>
@@ -9318,7 +9416,11 @@ number</value>
         </contextMenu>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ВниманиеКрасный</picture>
+          </picture>
+        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ТекстДокументыНаОсновании</name>
@@ -9341,7 +9443,7 @@ number</value>
         </extendedTooltip>
         <contextMenu>
           <name>ТекстДокументыНаОснованииКонтекстноеМеню</name>
-          <id>1925</id>
+          <id>1827</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>LabelField</type>
@@ -9438,7 +9540,6 @@ number</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиИЗакрыть</commandName>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -9463,7 +9564,6 @@ number</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗаписатьДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -9488,7 +9588,6 @@ number</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -9969,7 +10068,6 @@ number</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -9994,7 +10092,6 @@ number</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПроверитьКонтрагентов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -10014,6 +10111,10 @@ number</value>
     <name>Расш1_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
+  <excludedCommands>Post</excludedCommands>
+  <excludedCommands>PostAndClose</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>Write</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

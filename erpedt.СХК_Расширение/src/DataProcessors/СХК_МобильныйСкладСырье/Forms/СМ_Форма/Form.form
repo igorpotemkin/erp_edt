@@ -432,6 +432,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>8</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ПользовательРасширеннаяПодсказка</name>
           <id>45</id>

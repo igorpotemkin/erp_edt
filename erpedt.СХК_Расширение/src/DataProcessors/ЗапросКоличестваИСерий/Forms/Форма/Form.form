@@ -303,6 +303,13 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceForm>Catalog.УпаковкиЕдиницыИзмерения.Form.ФормаВыбораИзДокументов</choiceForm>
+                <choiceParameterLinks>
+                  <name>Номенклатура</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>ТекущаяНоменклатура</segments>
+                  </datapath>
+                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -4723,7 +4730,11 @@
         <autoMaxWidth>true</autoMaxWidth>
         <height>1</height>
         <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>StdPicture.Information</picture>
+          </picture>
+        </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаИнформация</name>
@@ -4733,11 +4744,11 @@
           <id>287</id>
           <title>
             <key>ru</key>
-            <value>Обособленно поступило - %1 %5. ожидается - %2 %5.</value>
+            <value>Доступность товара обособленно: в наличии - %1 %3; в наличии и ожидается - %2 %3.</value>
           </title>
           <title>
             <key>en</key>
-            <value>Received assigned - %1 %5. expected - %2 %5.</value>
+            <value>Assigned goods availability: in stock - %1 %3, available and expected - %2 %3.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>

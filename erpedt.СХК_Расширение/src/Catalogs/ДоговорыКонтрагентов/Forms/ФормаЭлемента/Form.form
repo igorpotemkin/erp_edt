@@ -305,7 +305,7 @@
                 <segments>Объект.Номер</segments>
               </dataPath>
               <extendedTooltip>
-                <name>НомерExtendedTooltip</name>
+                <name>НомерРасширеннаяПодсказка</name>
                 <id>904</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -391,7 +391,7 @@
                 <segments>Объект.Дата</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>907</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -411,7 +411,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>10</maxWidth>
+                <maxWidth>9</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <chooseType>true</chooseType>
@@ -624,7 +624,7 @@
             </toolTip>
             <toolTip>
               <key>en</key>
-              <value>Validity period</value>
+              <value>Valid till</value>
             </toolTip>
             <extendedTooltip>
               <name>ГруппаПериодДействияРасширеннаяПодсказка</name>
@@ -803,7 +803,7 @@
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
               <width>26</width>
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <listChoiceMode>true</listChoiceMode>
@@ -942,13 +942,25 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <clearButton>true</clearButton>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceParameterLinks>
+                <name>ИспользоватьСоглашенияСКлиентами</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>ИспользоватьСоглашенияСКлиентами</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Партнер</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Партнер</segments>
+                </datapath>
+              </choiceParameterLinks>
               <choiceParameters>
                 <name>ВыводитьПроизвольныйВидЦен</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -1007,13 +1019,25 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <clearButton>true</clearButton>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceParameterLinks>
+                <name>ИспользоватьСоглашенияСКлиентами</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>ИспользоватьСоглашенияСКлиентами</segments>
+                </datapath>
+              </choiceParameterLinks>
+              <choiceParameterLinks>
+                <name>Партнер</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Партнер</segments>
+                </datapath>
+              </choiceParameterLinks>
               <choiceParameters>
                 <name>ВыводитьПроизвольныйВидЦен</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -1139,7 +1163,7 @@
               <segments>Объект.Организация</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ОрганизацияExtendedTooltip</name>
+              <name>ОрганизацияРасширеннаяПодсказка</name>
               <id>162</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1159,7 +1183,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
@@ -1179,7 +1203,7 @@
               <segments>Объект.Подразделение</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ПодразделениеExtendedTooltip</name>
+              <name>ПодразделениеРасширеннаяПодсказка</name>
               <id>178</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1199,7 +1223,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <dropListButton>false</dropListButton>
@@ -1223,7 +1247,7 @@
               <segments>Объект.БанковскийСчет</segments>
             </dataPath>
             <extendedTooltip>
-              <name>БанковскийСчетExtendedTooltip</name>
+              <name>БанковскийСчетРасширеннаяПодсказка</name>
               <id>167</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1243,7 +1267,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
@@ -1263,7 +1287,7 @@
               <segments>Объект.Менеджер</segments>
             </dataPath>
             <extendedTooltip>
-              <name>МенеджерExtendedTooltip</name>
+              <name>МенеджерРасширеннаяПодсказка</name>
               <id>177</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1283,7 +1307,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
@@ -1296,11 +1320,11 @@
             <id>276</id>
             <title>
               <key>ru</key>
-              <value>УИП</value>
+              <value>УИП (для входящих платежей)</value>
             </title>
             <title>
               <key>en</key>
-              <value>UIP</value>
+              <value>UIP (for incoming payments)</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1321,6 +1345,18 @@
             <extendedTooltip>
               <name>ИдентификаторПлатежаРасширеннаяПодсказка</name>
               <id>278</id>
+              <title>
+                <key>ru</key>
+                <value>Уникальный идентификатор платежа используется для автоматического 
+заполнения объекта расчетов в платежном поручении.
+</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Unique payment ID is used to automatically 
+fill an AR/AP object in a payment order.
+</value>
+              </title>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1334,13 +1370,12 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
-            <readOnly>true</readOnly>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>28</maxWidth>
+              <maxWidth>29</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
@@ -1395,8 +1430,20 @@
               <segments>Объект.Партнер</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ПартнерExtendedTooltip</name>
+              <name>ПартнерРасширеннаяПодсказка</name>
               <id>152</id>
+              <title>
+                <key>ru</key>
+                <value>Деловой партнер предприятия, которому осуществляются продажи или у 
+которого осуществляются закупки в рамках договора
+</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Business partner of the enterprise to which the goods are sold or 
+purchased from under the contract
+</value>
+              </title>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1438,7 +1485,7 @@
               <segments>Объект.Контрагент</segments>
             </dataPath>
             <extendedTooltip>
-              <name>КонтрагентExtendedTooltip</name>
+              <name>КонтрагентРасширеннаяПодсказка</name>
               <id>153</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1571,7 +1618,11 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <height>1</height>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.ДлительнаяОперация16</picture>
+                  </picture>
+                </extInfo>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1609,6 +1660,14 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Локализация группа СПАРК</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Localization SPARK group</value>
+            </title>
             <extendedTooltip>
               <name>ЛокализацияГруппаСПАРКРасширеннаяПодсказка</name>
               <id>876</id>
@@ -1640,7 +1699,7 @@
               <segments>Объект.БанковскийСчетКонтрагента</segments>
             </dataPath>
             <extendedTooltip>
-              <name>БанковскийСчетКонтрагентаExtendedTooltip</name>
+              <name>БанковскийСчетКонтрагентаРасширеннаяПодсказка</name>
               <id>168</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1680,7 +1739,7 @@
               <segments>Объект.КонтактноеЛицо</segments>
             </dataPath>
             <extendedTooltip>
-              <name>КонтактноеЛицоExtendedTooltip</name>
+              <name>КонтактноеЛицоРасширеннаяПодсказка</name>
               <id>154</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1709,6 +1768,12 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceParameterLinks>
+                <name>Отбор.Владелец</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Партнер</segments>
+                </datapath>
+              </choiceParameterLinks>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1936,7 +2001,7 @@
         </title>
         <title>
           <key>en</key>
-          <value>Commission agent data</value>
+          <value>Consignee data</value>
         </title>
         <toolTip>
           <key>ru</key>
@@ -2001,7 +2066,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <maxWidth>28</maxWidth>
+            <maxWidth>29</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
@@ -2056,6 +2121,14 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Локализация реквизиты ГОЗ</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Localization SDO details</value>
+        </title>
         <extendedTooltip>
           <name>ЛокализацияРеквизитыГОЗРасширеннаяПодсказка</name>
           <id>869</id>
@@ -2101,7 +2174,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КартинкаОтгрузкаЗапрещенаExtendedTooltip</name>
+                <name>КартинкаОтгрузкаЗапрещенаРасширеннаяПодсказка</name>
                 <id>598</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2118,7 +2191,11 @@
               <autoMaxWidth>true</autoMaxWidth>
               <height>1</height>
               <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
+                </picture>
+              </extInfo>
             </items>
             <items xsi:type="form:Decoration">
               <name>ДекорацияОграничениеЗадолженности</name>
@@ -2203,7 +2280,7 @@
             </title>
             <title>
               <key>en</key>
-              <value>Decoration settlement status</value>
+              <value>Decoration settlement state</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2355,7 +2432,7 @@
           <strikeout>false</strikeout>
         </titleFont>
         <extendedTooltip>
-          <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
+          <name>ГруппаДополнительныеРеквизитыРасширеннаяПодсказка</name>
           <id>175</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2370,7 +2447,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
-          <throughAlign>Auto</throughAlign>
+          <throughAlign>DontUse</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
@@ -2424,7 +2501,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>Define AR/AP as</value>
+                <value>AR/AP item</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2435,7 +2512,7 @@
                 <segments>Объект.ПорядокРасчетов</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ПорядокРасчетовExtendedTooltip</name>
+                <name>ПорядокРасчетовРасширеннаяПодсказка</name>
                 <id>166</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2455,10 +2532,8 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <width>40</width>
-                <autoMaxWidth>true</autoMaxWidth>
+                <maxWidth>40</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <horizontalStretch>false</horizontalStretch>
                 <wrap>true</wrap>
                 <listChoiceMode>true</listChoiceMode>
                 <chooseType>true</chooseType>
@@ -2545,7 +2620,7 @@
                 <segments>Объект.ВалютаВзаиморасчетов</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ВалютаВзаиморасчетовExtendedTooltip</name>
+                <name>ВалютаВзаиморасчетовРасширеннаяПодсказка</name>
                 <id>165</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2787,6 +2862,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>AlwaysHorizontal</group>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -2954,6 +3030,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>AlwaysHorizontal</group>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -3543,6 +3620,9 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.Внимание16</picture>
+                  </picture>
                   <fileDragMode>AsFileRef</fileDragMode>
                 </extInfo>
               </items>
@@ -3671,11 +3751,11 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Порядок расчетов</value>
+            <value>Взаиморасчеты</value>
           </title>
           <title>
             <key>en</key>
-            <value>Payment terms</value>
+            <value>AR/AP accounting</value>
           </title>
           <extendedTooltip>
             <name>ГруппаПорядокРасчетовПоДоговоруРасширеннаяПодсказка</name>
@@ -3690,7 +3770,6 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -3725,7 +3804,7 @@
               </dataPath>
               <titleLocation>Right</titleLocation>
               <extendedTooltip>
-                <name>ОграничиватьСуммуЗадолженностиExtendedTooltip</name>
+                <name>ОграничиватьСуммуЗадолженностиРасширеннаяПодсказка</name>
                 <id>171</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3759,7 +3838,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ДопустимаяСуммаЗадолженностиExtendedTooltip</name>
+                <name>ДопустимаяСуммаЗадолженностиРасширеннаяПодсказка</name>
                 <id>172</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3801,7 +3880,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>НадписьВалютаВзаиморасчетовExtendedTooltip</name>
+                <name>НадписьВалютаВзаиморасчетовРасширеннаяПодсказка</name>
                 <id>173</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3821,7 +3900,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:LabelFieldExtInfo">
-                <width>4</width>
+                <width>9</width>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
@@ -3841,7 +3920,7 @@
               <value>Limit debt amount</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаОграничиватьСуммуЗадолженностиExtendedTooltip</name>
+              <name>ГруппаОграничиватьСуммуЗадолженностиРасширеннаяПодсказка</name>
               <id>170</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3852,6 +3931,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>AlwaysHorizontal</group>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -3879,7 +3959,7 @@
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
-              <name>ЗапрещаетсяПросроченнаяЗадолженностьExtendedTooltip</name>
+              <name>ЗапрещаетсяПросроченнаяЗадолженностьРасширеннаяПодсказка</name>
               <id>174</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3914,7 +3994,7 @@
             <value>Credit policy / Credit profile</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаКонтрольЗадолженностиExtendedTooltip</name>
+            <name>ГруппаКонтрольЗадолженностиРасширеннаяПодсказка</name>
             <id>169</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3925,7 +4005,7 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <representation>WeakSeparation</representation>
+            <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -4221,6 +4301,14 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Локализация вид агентского договора</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Localization agency agreement kind</value>
+            </title>
             <enableContentChange>true</enableContentChange>
             <extendedTooltip>
               <name>ЛокализацияВидАгентскогоДоговораРасширеннаяПодсказка</name>
@@ -4275,7 +4363,6 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -4339,11 +4426,11 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Порядок списания недостач товаров, принятых на хранение</value>
+            <value>Порядок списания недостач товаров</value>
           </title>
           <title>
             <key>en</key>
-            <value>Write-off procedure for shortages of goods accepted for storage</value>
+            <value>Stock shortage recognition procedure</value>
           </title>
           <width>50</width>
           <extendedTooltip>
@@ -4359,7 +4446,6 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -4423,11 +4509,11 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Порядок списания в производство товаров, принятых на хранение</value>
+            <value>Порядок списания товаров в производство</value>
           </title>
           <title>
             <key>en</key>
-            <value>Write-off of goods accepted for storage to production</value>
+            <value>Procedure of writing off goods to production</value>
           </title>
           <width>50</width>
           <extendedTooltip>
@@ -4443,7 +4529,6 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -4520,7 +4605,6 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -4574,7 +4658,9 @@
                   <key>en</key>
                   <value>Not removed from turnover</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ВариантыВыбытияМаркируемойПродукции.EmptyRef</value>
+                </value>
               </choiceList>
               <choiceList>
                 <presentation>
@@ -4617,7 +4703,6 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -4696,7 +4781,7 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаВариантОформленияРаздельнойЗакупки</name>
-            <id>741</id>
+            <id>2168</id>
             <items xsi:type="form:Decoration">
               <name>ОтступВариантаОформленияРаздельнойЗакупки</name>
               <id>743</id>
@@ -4792,9 +4877,25 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Оформление закупки товаров, работ и услуг</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Register purchasing of goods, works, and services</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Оформление закупки товаров, работ и услуг</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Register purchasing of goods, works, and services</value>
+            </toolTip>
             <extendedTooltip>
               <name>ГруппаВариантОформленияРаздельнойЗакупкиРасширеннаяПодсказка</name>
-              <id>742</id>
+              <id>2169</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -4804,8 +4905,10 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>Vertical</group>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
+              <showTitle>true</showTitle>
               <throughAlign>Auto</throughAlign>
               <currentRowUse>Auto</currentRowUse>
             </extInfo>
@@ -4846,10 +4949,10 @@
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаВариантыПриемки</name>
-          <id>784</id>
+          <id>2170</id>
           <items xsi:type="form:FormField">
             <name>ОформлениеПоступления</name>
-            <id>788</id>
+            <id>2140</id>
             <title>
               <key>ru</key>
               <value>Оформление ордера доступно</value>
@@ -4863,9 +4966,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <titleLocation>Left</titleLocation>
             <extendedTooltip>
               <name>ОформлениеПоступленияРасширеннаяПодсказка</name>
-              <id>790</id>
+              <id>2142</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -4894,12 +4998,13 @@
           </items>
           <items xsi:type="form:FormField">
             <name>ПриемкаТоваров</name>
-            <id>791</id>
+            <id>2143</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
+            <titleLocation>Left</titleLocation>
             <toolTip>
               <key>ru</key>
               <value>Приемку товаров на ордерном складе можно сгруппировать по договору, либо разделить по документам.</value>
@@ -4910,7 +5015,7 @@
             </toolTip>
             <extendedTooltip>
               <name>ПриемкаТоваровРасширеннаяПодсказка</name>
-              <id>793</id>
+              <id>2145</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -4950,9 +5055,17 @@
             <key>en</key>
             <value>Inbound delivery</value>
           </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Вариант оформления закупок товаров общая</value>
+          </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>Goods purchase registration option common</value>
+          </toolTip>
           <extendedTooltip>
             <name>ГруппаВариантыПриемкиРасширеннаяПодсказка</name>
-            <id>785</id>
+            <id>2171</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4963,10 +5076,9 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
-            <representation>WeakSeparation</representation>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -5049,7 +5161,7 @@
             <segments>Объект.ГруппаФинансовогоУчета</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ГруппаФинансовогоУчетаExtendedTooltip</name>
+            <name>ГруппаФинансовогоУчетаРасширеннаяПодсказка</name>
             <id>179</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5069,10 +5181,9 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>28</width>
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>40</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>false</horizontalStretch>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
@@ -5090,6 +5201,7 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ГруппаФинансовогоУчетаКлиента</segments>
           </dataPath>
+          <titleHeight>2</titleHeight>
           <extendedTooltip>
             <name>ГруппаФинансовогоУчетаКлиентаРасширеннаяПодсказка</name>
             <id>991</id>
@@ -5111,10 +5223,9 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>28</width>
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>40</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>false</horizontalStretch>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
@@ -5169,10 +5280,9 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>28</width>
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>40</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>false</horizontalStretch>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <dropListButton>false</dropListButton>
             <choiceButton>true</choiceButton>
@@ -5214,10 +5324,9 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>28</width>
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>40</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>false</horizontalStretch>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <dropListButton>false</dropListButton>
             <choiceButton>true</choiceButton>
@@ -5355,7 +5464,7 @@
         </toolTip>
         <enableContentChange>true</enableContentChange>
         <extendedTooltip>
-          <name>ГруппаСрокОплатыExtendedTooltip</name>
+          <name>ГруппаСрокОплатыРасширеннаяПодсказка</name>
           <id>294</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -5461,7 +5570,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <width>25</width>
+                <width>26</width>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
@@ -5868,7 +5977,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ПеревозчикПартнерExtendedTooltip</name>
+                <name>ПеревозчикПартнерРасширеннаяПодсказка</name>
                 <id>812</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -6745,7 +6854,7 @@ details</value>
           <value>Delivery pages</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыДоставкиExtendedTooltip</name>
+          <name>СтраницыДоставкиРасширеннаяПодсказка</name>
           <id>819</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -6773,7 +6882,7 @@ details</value>
         <value>Delivery</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаДоставкаExtendedTooltip</name>
+        <name>СтраницаДоставкаРасширеннаяПодсказка</name>
         <id>800</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -6804,7 +6913,7 @@ details</value>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>180</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -6996,7 +7105,7 @@ details</value>
       </toolTip>
       <toolTip>
         <key>en</key>
-        <value>Print commands</value>
+        <value>Form's print commands.</value>
       </toolTip>
       <extendedTooltip>
         <name>ПодменюПечатьРасширеннаяПодсказка</name>
@@ -7102,7 +7211,7 @@ details</value>
         </title>
         <title>
           <key>en</key>
-          <value>Important reports submenu</value>
+          <value>Submenu reports important</value>
         </title>
         <extendedTooltip>
           <name>ПодменюОтчетыВажноеРасширеннаяПодсказка</name>
@@ -7138,7 +7247,7 @@ details</value>
         </toolTip>
         <toolTip>
           <key>en</key>
-          <value>Important reports submenu</value>
+          <value>Submenu reports important</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюОтчетыОбычноеРасширеннаяПодсказка</name>
@@ -7174,7 +7283,7 @@ details</value>
         </toolTip>
         <toolTip>
           <key>en</key>
-          <value>Important reports submenu</value>
+          <value>Submenu reports important</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюОтчетыСмТакжеРасширеннаяПодсказка</name>
@@ -7244,7 +7353,7 @@ details</value>
         <value>Additional filling commands</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка</name>
+        <name>ПодменюЗаполнитьРасширеннаяПодсказка</name>
         <id>280</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

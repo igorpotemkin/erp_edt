@@ -15,7 +15,6 @@
         <segments>Номенклатура</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <toolTipRepresentation>None</toolTipRepresentation>
       <extendedTooltip>
         <name>НоменклатураРасширеннаяПодсказка</name>
         <id>5</id>

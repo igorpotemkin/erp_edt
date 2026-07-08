@@ -1011,7 +1011,11 @@
               <autoMaxHeight>true</autoMaxHeight>
               <verticalStretch>false</verticalStretch>
               <groupVerticalAlign>Center</groupVerticalAlign>
-              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.Information</picture>
+                </picture>
+              </extInfo>
             </items>
             <items xsi:type="form:FormField">
               <name>НадписьНесколькоСкладов</name>
@@ -1243,7 +1247,11 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ДлительнаяОперация16</picture>
+            </picture>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4134,6 +4142,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Товары.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -5670,6 +5681,12 @@ details</value>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <choiceParameterLinks>
+                <name>Отбор.Владелец</name>
+                <datapath xsi:type="form:DataPath">
+                  <segments>Объект.Партнер</segments>
+                </datapath>
+              </choiceParameterLinks>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -8039,6 +8056,10 @@ notes</value>
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <excludedCommands>Post</excludedCommands>
+  <excludedCommands>PostAndClose</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>Write</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -8071,4 +8092,7 @@ notes</value>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>
